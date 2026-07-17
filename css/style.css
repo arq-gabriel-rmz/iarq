@@ -3,6 +3,48 @@
    Tokens: acotaciones y anotaciones técnicas como lenguaje visual
    ============================================================ */
 
+/* ---- Tipografías autoalojadas (sin dependencia de CDN externo) ---- */
+@font-face{
+  font-family:"Big Shoulders Display";
+  src:url("../fonts/big-shoulders-display-latin-500-normal.woff2") format("woff2");
+  font-weight:500; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"Big Shoulders Display";
+  src:url("../fonts/big-shoulders-display-latin-700-normal.woff2") format("woff2");
+  font-weight:700; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"Big Shoulders Display";
+  src:url("../fonts/big-shoulders-display-latin-900-normal.woff2") format("woff2");
+  font-weight:900; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"Inter";
+  src:url("../fonts/inter-latin-400-normal.woff2") format("woff2");
+  font-weight:400; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"Inter";
+  src:url("../fonts/inter-latin-500-normal.woff2") format("woff2");
+  font-weight:500; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"Inter";
+  src:url("../fonts/inter-latin-600-normal.woff2") format("woff2");
+  font-weight:600; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"JetBrains Mono";
+  src:url("../fonts/jetbrains-mono-latin-400-normal.woff2") format("woff2");
+  font-weight:400; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"JetBrains Mono";
+  src:url("../fonts/jetbrains-mono-latin-500-normal.woff2") format("woff2");
+  font-weight:500; font-style:normal; font-display:swap;
+}
+
 :root{
   --paper:      #F1EAE0;
   --paper-2:    #E7DDCC;
